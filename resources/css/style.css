@@ -1,0 +1,153 @@
+/* GLOBAL DEFAULTS */
+@import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
+
+@import url("https://use.typekit.net/luj7qkh.css");
+
+@import url("https://use.typekit.net/luj7qkh.css");
+
+@import url("https://use.typekit.net/luj7qkh.css");
+
+@import url("https://use.typekit.net/luj7qkh.css");
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: freight-big-pro, serif;
+font-weight: 300;
+font-style: normal;
+    line-height: 1.5;
+    font-size: 15px;
+} 
+
+a{
+    color: rgb(70, 87, 69);
+}
+
+a:hover{
+    color: black;
+}
+img,
+iframe {
+    max-width: 100%;
+}
+
+/* HEADINGS AND TYPOGRAPHY */
+h1{
+     color:rgb(63, 62, 62);
+    font-family:freight-big-pro, serif;
+
+    font-weight: 500;
+
+    font-style: normal;
+
+    font-size: 50px;
+}
+
+
+h2{color: rgb(63, 62, 62);
+    font-size: 30px;
+    
+    font-family: freight-big-pro, serif;
+    
+    font-weight: 500;
+    
+    font-style: normal;
+} 
+
+
+
+h3 {
+    color: whitesmoke;
+    font-family:freight-big-pro, serif;
+
+    font-weight: 300;
+
+    font-style: normal;
+
+    font-size: 30px;
+
+}
+
+h4{
+    color: rgb(63, 62, 62);
+    font-size: 20px;
+    
+    font-family: freight-big-pro, serif;
+    
+    font-weight: 900;
+    
+    font-style: normal;
+}
+
+
+.highlight {
+    font-family:freight-big-pro, serif;
+
+    font-weight: 600;
+
+    font-style: normal;
+
+    font-size: 18px;
+}
+
+
+/* LAYOUTS */
+.layout-wide{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px;
+
+}
+/* HEADER, MAIN & FOOTER */ 
+
+header {
+    background-color:white;
+
+}
+
+main {background-color:whitesmoke;
+}
+
+footer {background-color: rgb(63, 62, 62);
+    color: whitesmoke;
+    text-align: left;
+padding: 20px;}
+
+/* NAVIGATION */
+
+/* MODULES */
+.news-component {
+    background-color: white;
+    padding: 20px;
+}
+.footer-logo {
+    text-align: left;
+    
+
+} 
+@media screen and (min-width: 800px) {
+    .news-component {
+        display: grid; grid-template-columns: 3fr 3fr;
+        grid-gap: 10px; 
+       
+
+    }
+@media screen and (min-width: 600px) {
+    .image-gallery { 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (min-width: width 800px) {
+    .image-gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+}
