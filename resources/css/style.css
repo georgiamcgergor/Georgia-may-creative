@@ -98,19 +98,23 @@ h4{
 
 /* LAYOUTS */
 .layout-wide{
-    max-width: 800px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 
     padding: 20px;
 
 }
+
 /* HEADER, MAIN & FOOTER */ 
 
 header {
     background-color:white;
 
+    display: grid;
+    grid-template-columns: 4fr; 6fr; 
 }
+
 
 main {background-color:whitesmoke;
 }
@@ -136,7 +140,6 @@ padding: 20px;}
     .news-component {
         display: grid; grid-template-columns: 3fr 3fr;
         grid-gap: 10px; 
-       
 
     }
 @media screen and (min-width: 600px) {
