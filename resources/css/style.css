@@ -136,6 +136,14 @@ font-weight: 400;
 
 }
 
+.layout-center-wide {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+
 .blog-link-element{
     background-color: white;
     padding: 0px;
