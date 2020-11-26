@@ -1,3 +1,6 @@
+
+
+/* This is to open and close the nav */
 function openNav () {
     let toggler  = document.querySelector('.nav-prompt');
     let navigation = document.querySelector ('.nav-inner' );
@@ -7,4 +10,9 @@ function openNav () {
     };
 }
 
-openNav() ; 
+openNav();
+
+
+// This is for the gallery 
+
+var lightbox = new SimpleLightbox('.gallery a', { /* options */ }); 
