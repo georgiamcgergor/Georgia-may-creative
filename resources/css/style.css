@@ -264,18 +264,19 @@ padding-bottom: 50px;
 
 .nav-inner a:hover{
 
-    border-bottom: 6px solid burlywood;
+    border-bottom: 5px solid burlywood;
 }
 
 .nav-inner a:hover:before {
-    position: absolute;
-    content:'';
+    position:
+    content: position;
     bottom: -1px;
     left:0;
     background-color:burlywood;
     width: 100%;
     height: 10px;
 }
+
 
 /* this is for mobile view  */
 @media screen and (max-width: 800px) {
@@ -404,4 +405,24 @@ padding-bottom: 50px;
       }
       
  
-      
+      /* image Gallery */
+
+      @media screen and (min-width:500px)
+      {
+          .gallery{
+              display: grid;
+              grid-template-columns:1fr 1fr;
+              grid-gap: 20px;
+          }
+
+      }
+
+      @media screen and (min-width:800px)
+      {
+          .gallery {
+
+grid-template-columns: 1fr 1fr 1fr ;
+          }
+      }
+
+
