@@ -90,7 +90,9 @@ h4{
     
     font-style: normal;
 }
-
+.href{
+    text-decoration: none;
+}
 
 .highlight {
     font-family:freight-big-pro, serif;
