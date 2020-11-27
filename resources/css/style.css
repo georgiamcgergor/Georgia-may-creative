@@ -278,8 +278,7 @@ padding-bottom: 50px;
 }
 
 .nav-inner a:hover:before {
-    position:
-    content: position;
+
     bottom: -1px;
     left:0;
     background-color:burlywood;
@@ -400,7 +399,6 @@ padding-bottom: 50px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    font-style: ;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
@@ -409,7 +407,7 @@ padding-bottom: 50px;
 
 /* Coloumn layout*/
     .column {
-        float: ;
+        float:0 ;
         width: 50%;
         padding-bottom: 10px;
         padding-top: 10px;
